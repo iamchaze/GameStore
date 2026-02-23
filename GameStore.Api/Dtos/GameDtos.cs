@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using GameStore.Api.Models;
+
 namespace GameStore.Api.Dtos;
 
 public record class GameDtos(
@@ -5,6 +8,7 @@ public record class GameDtos(
     string Title,
     string Description,
     decimal Price,
-    string Genre
+    int GenreId,
+    string GenreName
 );
 

@@ -8,10 +8,10 @@ POST http://localhost:5182/games
 Content-Type: application/json
 
 {
-    "Title": "The Legend of Zelda: Breath of the Wild",
+    "Title": "The Legend of Cheems: Breath of the Wild",
     "description": "An open-world action-adventure game developed and published by Nintendo.",
-    "price": 599.99,
-    "genre": "Action-Adventure"
+    "price": 59.99,
+    "genreId": 1
 }
 
 ###
@@ -22,8 +22,8 @@ Content-Type: application/json
     "title": "Mortal Kombat 11",
     "description": "A fighting game developed by NetherRealm Studios.",
     "price": 29.99,
-    "genre": ""
+    "genreId": 1
 }
 
 ###
-DELETE http://localhost:5182/games/4
+DELETE http://localhost:5182/games/5
